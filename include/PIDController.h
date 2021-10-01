@@ -1,13 +1,14 @@
-/*
- * PIDController.h
- *
- *  Created on: Sep 30, 2021
- *      Author: gauraut(driver)
- *      Author: Abhijit Mahalle(navigator)
- */
+//============================================================================
+// Name        : PIDController.h
+// Author      : gauraut (Driver)
+// Author      : Abhijit Mahalle (Navigator)
+// Version     :
+// Copyright   : Open source
+// Description : PIDController in C++
+//============================================================================
 
-#ifndef PIDCONTROLLER_H_
-#define PIDCONTROLLER_H_
+#ifndef INCLUDE_PIDCONTROLLER_H_
+#define INCLUDE_PIDCONTROLLER_H_
 
 /// @class PID_Controller
 /// @brief A class that computes the error and returns
@@ -15,15 +16,15 @@
 ///
 class PIDController {
  public:
-  PIDController(); //default constructor
-  PIDController(double &st, double &fv); //input argument constructor
-  double setpoint, finalvalue; // default value
+  PIDController();  // default constructor
+  PIDController(const double &st, const double &fv);
+  // input argument constructor
+  double setpoint, finalvalue;  // default value
 
   double compute();
 
  private:
-
   double kp = 1, kd = 2, ki = 1;
 };
 
-#endif /* PIDCONTROLLER_H_ */
+#endif  // INCLUDE_PIDCONTROLLER_H_

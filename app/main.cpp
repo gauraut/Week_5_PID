@@ -1,6 +1,7 @@
 //============================================================================
 // Name        : main.cpp
-// Author      : Gaurav
+// Author      : gauraut (Driver)
+// Author      : Abhijit Mahalle (Navigator)
 // Version     :
 // Copyright   : Open source
 // Description : PIDController in C++

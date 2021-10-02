@@ -2,6 +2,7 @@
 *.VC.db*
 .vscode
 .gitmodules
+
 # OS X files
 .DS_Store
 

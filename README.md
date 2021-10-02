@@ -1,5 +1,6 @@
 # Week_5_PID
 # Process to build
+In the terminal window:
 - cd <path to repository>
 - mkdir build
 - cd build

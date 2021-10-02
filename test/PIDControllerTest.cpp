@@ -11,11 +11,8 @@
 #include <memory>
 #include "PIDController.h"
 
-TEST(EqualTest, testEqual) {
-  ASSERT_EQ(1,1);
-}
 
-/*TEST(PIDControllerTest, testPIDControllercompute) {
+TEST(PIDControllerTest, testPIDControllercompute) {
   PIDController pid(9, 4);
   double result;
   while (pid.error != 0) {
@@ -34,4 +31,4 @@ TEST(PIDControllerTest3, testPIDController_finalvalue) {
   double sp = 9.0, fv = 10.0;
   PIDController pid2(sp, fv);
   EXPECT_DOUBLE_EQ(10.0 , pid2.finalvalue);
-}*/
+}

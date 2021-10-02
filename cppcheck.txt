@@ -1,6 +1,0 @@
-test/PIDControllerTest.cpp:22:21: style: Variable 'pid1' is assigned a value that is never used. [unreadVariable]
-  PIDController pid1(sp, fv);
-                    ^
-test/PIDControllerTest.cpp:28:21: style: Variable 'pid2' is assigned a value that is never used. [unreadVariable]
-  PIDController pid2(sp, fv);
-                    ^

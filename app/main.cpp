@@ -19,13 +19,5 @@
 /// @post
 /// @return
 int main() {
-  double setpoint, finalvalue;
-  std::cout << "Enter Target Set Point:" << std::endl;
-  std::cin >> setpoint;
-  std::cout << "Enter Final Value:" << std::endl;
-  std::cin >> finalvalue;
-
-  int count = 0;
-  PIDController pid(setpoint, finalvalue);
   return 0;
 }

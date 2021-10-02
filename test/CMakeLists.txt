@@ -12,4 +12,4 @@ target_include_directories(cpp-test PUBLIC ../vendor/googletest/googletest/inclu
                                            ${CMAKE_SOURCE_DIR}/include
                                            ../include
                                            ../app)
-target_link_libraries(cpp-test PUBLIC gtest libgtest.a libgtest_main.a)
+target_link_libraries(cpp-test PUBLIC gtest)

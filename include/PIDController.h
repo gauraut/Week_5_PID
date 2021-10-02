@@ -1,30 +1,36 @@
-//============================================================================
-// Name        : PIDController.h
-// Author      : gauraut (Driver)
-// Author      : Abhijit Mahalle (Navigator)
-// Version     :
-// Copyright   : Open source
-// Description : PIDController in C++
-//============================================================================
+///============================================================================
+/// @file        : PIDController.h
+/// @author      : gauraut (Driver)
+/// @author      : Abhijit Mahalle (Navigator)
+/// @version     : 1.0
+/// @copyright   : Open source
+/// @brief       : Header file for PIDController in C++
+///============================================================================
 
 #ifndef INCLUDE_PIDCONTROLLER_H_
 #define INCLUDE_PIDCONTROLLER_H_
 
-/// @class PID_Controller
-/// @brief A class that computes the error and returns
-/// the new velocity using the method compute
-///
 class PIDController {
  public:
-  PIDController();  // default constructor
-  PIDController(const double &st, const double &fv);
-  // input argument constructor
-  double setpoint, finalvalue;  // default value
-
+  /// @fn  PIDController(const double&, const double&)
+  /// @brief Input argument constructor for the PIDController class
+  ///
+  /// @pre
+  /// @post
+  /// @param
+  /// @param
+  PIDController(const double&, const double&);
+  double setpoint, finalvalue, cur_vel, error, pre_error;
+  // Class variables
+  /// @fn double compute()
+  /// @brief This function will compute the cur_vel
+  ///
+  /// @pre
+  /// @post
   double compute();
 
  private:
-  double kp = 1, kd = 2, ki = 1;
+  double kp = 0.8, ki = 0.1, kd = 0.3, timestep = 1;  // tuned parameters
 };
 
 #endif  // INCLUDE_PIDCONTROLLER_H_

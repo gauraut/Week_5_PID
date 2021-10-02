@@ -1,11 +1,11 @@
-//============================================================================
-// Name        : main.cpp
-// Author      : gauraut (Driver)
-// Author      : Abhijit Mahalle (Navigator)
-// Version     :
-// Copyright   : Open source
-// Description : PIDController in C++
-//============================================================================
+///============================================================================
+/// @file        : main.cpp
+/// @author      : gauraut (Driver)
+/// @author      : Abhijit Mahalle (Navigator)
+/// @version     : 1.0
+/// @copyright   : Open source
+/// @brief       : Main file for PIDController in C++
+///============================================================================
 
 #include <iostream>
 #include "PIDController.h"
@@ -19,11 +19,13 @@
 /// @post
 /// @return
 int main() {
-  double setpoint, finalvalue = 2;
+  double setpoint, finalvalue;
   std::cout << "Enter Target Set Point:" << std::endl;
   std::cin >> setpoint;
+  std::cout << "Enter Final Value:" << std::endl;
+  std::cin >> finalvalue;
 
+  int count = 0;
   PIDController pid(setpoint, finalvalue);
-  std::cout << pid.compute() << std::endl;
   return 0;
 }

@@ -1,46 +1,25 @@
-//============================================================================
-// Name        : PIDController.cpp
-// Author      : gauraut (Driver)
-// Author      : Abhijit Mahalle (Navigator)
-// Version     :
-// Copyright   : Open source
-// Description : PIDController in C++
-//============================================================================
+///============================================================================
+/// @file        : PIDController.cpp
+/// @author      : gauraut (Driver)
+/// @author      : Abhijit Mahalle (Navigator)
+/// @version     : 1.0
+/// @copyright   : Open source
+/// @brief       : PIDController in C++
+///============================================================================
 
 
 #include "PIDController.h"
+#include <cmath>
+#include <iostream>
 
-/// @fn  PIDController()
-/// @brief Default constructor that sets
-/// the variables to 0
-///
-/// @pre
-/// @post
-PIDController::PIDController() {
-  setpoint = 0;
-  finalvalue = 0;
+PIDController::PIDController(const double &sp, const double &fv) {
+  finalvalue = sp;
+  setpoint = fv;
+  pre_error = 0;
+  error = finalvalue - setpoint;
+  cur_vel = finalvalue;
 }
 
-/// @fn  PIDController(double&, double&)
-/// @brief Constructor with variables that sets
-/// the setpoint and finalvalue variables
-///
-/// @pre
-/// @post
-/// @param st
-/// @param fv
-PIDController::PIDController(const double &st, const double &fv) {
-  setpoint = 0;
-  finalvalue = 0;
-}
-
-/// @fn double compute()
-/// @brief The compute method gives the velocity 
-/// output computed from the current state
-///
-/// @pre
-/// @post
-/// @return
 double PIDController::compute() {
   return 1.7;
 }

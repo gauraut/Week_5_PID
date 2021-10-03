@@ -20,7 +20,7 @@ class PIDController {
   /// @param
   /// @param
   PIDController(const double&, const double&);
-  double setpoint, finalvalue, cur_vel, error, pre_error;
+  double setpoint, finalvalue, cur_vel, error, pre_error, i_error;
   // Class variables
   /// @fn double compute()
   /// @brief This function will compute the cur_vel

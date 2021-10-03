@@ -16,6 +16,7 @@ PIDController::PIDController(const double &sp, const double &fv) {
   finalvalue = 0;
   setpoint = 0;
   pre_error = 0;
+  i_error = 0;
   error = finalvalue - setpoint;
   cur_vel = finalvalue;
 }

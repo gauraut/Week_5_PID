@@ -1,10 +1,15 @@
-# Week_5_PID
 ## Author(s)
 - gauraut (Driver)
 - Abhijit Mahalle (Navigator)
-# Process to build in Terminal
-In the terminal window:
+# Week_5_PID
+![Build Status](https://app.travis-ci.com/gauraut/Week_5_PID.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/gauraut/Week_5_PID/badge.svg?branch=master)](https://coveralls.io/github/gauraut/Week_5_PID?branch=master)
+---
+# Procedure to install
+- Open terminal
 - cd <path to repository>
+- git clone --recursive https://github.com/gauraut/Week_5_PID.git
+- cd Week_5_PID
 - mkdir build
 - cd build
 - cmake ..
@@ -13,10 +18,6 @@ In the terminal window:
 - Run tests: ./test/cpp-test
 #cppcheck might show unused variables. They are being used by the Google test
 
-# C++ Boilerplate
-  ![Build Status](https://app.travis-ci.com/gauraut/Week_5_PID.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/gauraut/Week_5_PID/badge.svg?branch=master)](https://coveralls.io/github/gauraut/Week_5_PID?branch=master)
----
 # Building for Code Coverage in local system
 
   sudo apt-get install lcov

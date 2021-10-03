@@ -8,6 +8,7 @@ Part 2
 - Sameep Pote(Navigator)
 
 # Week_5_PID
+[![Build Status](https://app.travis-ci.com/advaitp/Week_5_PID.svg?branch=master)](https://app.travis-ci.com/advaitp/Week_5_PID)
 [![Coverage Status](https://coveralls.io/repos/github/advaitp/Week_5_PID/badge.svg?branch=master)](https://coveralls.io/github/advaitp/Week_5_PID?branch=master)
 ---
 # Procedure to install

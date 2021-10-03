@@ -1,12 +1,11 @@
-//============================================================================
-// Name        : PIDControllerTest.cpp
-// Author      : gauraut (Driver)
-// Author      : Abhijit Mahalle (Navigator)
-// Version     :
-// Copyright   : Open source
-// Description : PIDController Test in C++
-//============================================================================
-
+///============================================================================
+/// @file        : PIDCOntrollerTest.cpp
+/// @author      : gauraut (Driver)
+/// @author      : Abhijit Mahalle (Navigator)
+/// @version     : 1.0
+/// @copyright   : Open source
+/// @brief       : Test file for PIDController in C++
+///============================================================================
 #include <gtest/gtest.h>
 #include <memory>
 #include "PIDController.h"

@@ -1,3 +1,0 @@
-/home/gauraut/808X_Material/Week 5/cpp-boilerplate/test/CMakeFiles/rebuild_cache.dir
-/home/gauraut/808X_Material/Week 5/cpp-boilerplate/test/CMakeFiles/edit_cache.dir
-/home/gauraut/808X_Material/Week 5/cpp-boilerplate/test/CMakeFiles/cpp-test.dir

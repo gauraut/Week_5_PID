@@ -7,6 +7,10 @@
 /// @brief       : Header file for PIDController in C++
 ///============================================================================
 
+/**
+ * Copyright 2020 <Advait Patole> <Sameep Pote>
+**/
+
 #ifndef INCLUDE_PIDCONTROLLER_H_
 #define INCLUDE_PIDCONTROLLER_H_
 

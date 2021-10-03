@@ -21,16 +21,15 @@
 int main() {
   int count = 0;
     double result = 0;
-    double i_error = 0;
     double setpoint, finalvalue;
     std::cout << "Enter setpoint and finalvalue" << std::endl;
     std::cin >> setpoint >> finalvalue;
     PIDController ctr(setpoint, finalvalue);
-    do{
+    /*do{
       result = ctr.compute();
       count++;
     } while (ctr.error != 0);
     std::cout << "Iterations required are " << count << " and error value is "
-              << ctr.error << std::endl;
+              << ctr.error << std::endl;*/
     return 0;
 }

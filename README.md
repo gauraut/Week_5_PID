@@ -18,8 +18,6 @@ make
 Run program: ./app/shell-app
 Run tests: ./test/cpp-test
 ```
-# cppcheck might show unused variables. They are being used by the Google test
-
 # Building for Code Coverage in local system
 ```
 sudo apt-get install lcov
@@ -27,3 +25,6 @@ cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
 make
 make code_coverage
 ```
+
+# Note
+cppcheck might show unused variables. They are being used by the Google test

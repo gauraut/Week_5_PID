@@ -20,7 +20,7 @@
 
 # Building for Code Coverage in local system
 
--  sudo apt-get install lcov
--  cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
--  make
--  make code_coverage
+sudo apt-get install lcov
+cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
+make
+make code_coverage

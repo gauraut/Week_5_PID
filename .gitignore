@@ -1,9 +1,9 @@
 # VS Code files
 *.VC.db*
-.vscode
-.gitmodules
-.metadata
-.settings
+.vscode/
+.gitmodules/
+.metadata/
+.settings/
 
 # OS X files
 .DS_Store

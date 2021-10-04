@@ -11,6 +11,14 @@ Part 2
 [![Build Status](https://app.travis-ci.com/gauraut/Week_5_PID.svg?branch=master)](https://app.travis-ci.com/gauraut/Week_5_PID)
 [![Coverage Status](https://coveralls.io/repos/github/gauraut/Week_5_PID/badge.svg?branch=master)](https://coveralls.io/github/gauraut/Week_5_PID?branch=master)
 
+# Notes
+- UML Diagrams should be given with a repository before it is forked by the Part2 pair
+- Overall process was a nice experience
+- PID gains are tuned
+
+# Things to do 
+- Create visualizer for controller and output
+- Create system plant model
 ---
 # Procedure to install
 - Open terminal

@@ -10,6 +10,7 @@
 
 # Build artifacts
 build/
+vendor/
 
 # Python
 *.pyc

@@ -4,6 +4,7 @@
 .gitmodules/
 .metadata/
 .settings/
+.gitignore/
 
 # OS X files
 .DS_Store

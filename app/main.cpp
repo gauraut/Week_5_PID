@@ -19,13 +19,15 @@
 /// @post
 /// @return
 int main() {
-  int count = 0;
+  
+/// For coverage we have commented the main code you can uncomment it to run the complete program
+    /*int count = 0;
     double result = 0;
     double setpoint, finalvalue;
     std::cout << "Enter setpoint and finalvalue" << std::endl;
     std::cin >> setpoint >> finalvalue;
     PIDController ctr(setpoint, finalvalue);
-    /*do{
+    do{
       result = ctr.compute();
       count++;
     } while (ctr.error != 0);

@@ -34,7 +34,7 @@ TEST(PIDControllerTest, testPIDControllercompute) {
 TEST(PIDControllerTest2, testPIDController_setpoint) {
   double sp = 9.0, fv = 10.0;
   PIDController pid1(sp, fv);
-  EXPECT_DOUBLE_EQ(9.0 , pid1.setpoint);
+  EXPECT_DOUBLE_EQ(9.0, pid1.setpoint);
 }
 
 /// @fn TEST()
@@ -46,5 +46,5 @@ TEST(PIDControllerTest2, testPIDController_setpoint) {
 TEST(PIDControllerTest3, testPIDController_finalvalue) {
   double sp = 9.0, fv = 10.0;
   PIDController pid2(sp, fv);
-  EXPECT_DOUBLE_EQ(10.0 , pid2.finalvalue);
+  EXPECT_DOUBLE_EQ(10.0, pid2.finalvalue);
 }

@@ -1,9 +1,15 @@
 ## Author(s)
+Part 1
 - gauraut (Driver)
 - Abhijit Mahalle (Navigator)
+
+Part 2
+- Advait Patole(Driver)
+- Sameep Pote(Navigator)
+
 # Week_5_PID
-![Build Status](https://app.travis-ci.com/gauraut/Week_5_PID.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/gauraut/Week_5_PID/badge.svg?branch=master)](https://coveralls.io/github/gauraut/Week_5_PID?branch=master)
+[![Build Status](https://app.travis-ci.com/advaitp/Week_5_PID.svg?branch=master)](https://app.travis-ci.com/advaitp/Week_5_PID)
+[![Coverage Status](https://coveralls.io/repos/github/advaitp/Week_5_PID/badge.svg?branch=master)](https://coveralls.io/github/advaitp/Week_5_PID?branch=master)
 ---
 # Procedure to install
 - Open terminal

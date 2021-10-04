@@ -95,7 +95,7 @@ To build the project, in Eclipse, unfold boilerplate-eclipse project in Project 
 
       - To run CPPCheck on a project, right click on the project name in the Project Explorer and choose cppcheck -> Run cppcheck.
 
-- Google C++ Sytle
+   - Google C++ Sytle
 
       - To include and use Google C++ Style formatter in Eclipse
 
